@@ -18,7 +18,7 @@ app.get('/waktu', (req, res) => {
     res.json({ 
         status: 'success', 
         waktu_server: new Date().toLocaleString('id-ID'),
-        keterangan: 'Endpoint ini dibuat untuk Exercise'
+        keterangan: 'Endpoint Baru Waktu Server Untuk Exercise'
     });
 });
 
